@@ -1,17 +1,30 @@
+html{
+    display: flex;
+    min-height: 100%;
+    align-items: stretch;
+}
 body{
     display: flex;
     background-color: #6F3A1B;
     flex-direction: column;
     align-items: stretch;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Vina sans";
 }
 main{
     display: flex;
-    background-color: aliceblue;
-    justify-content: space-around;
+    background-color: #fff;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-around;
 }
 article{
     width: 300px;
@@ -21,7 +34,7 @@ article{
     justify-content: space-around;
     align-items: center;
     background: #1B506F;
-
+    border-radius: 10px;
 }
 img{
     width: 200px;
@@ -29,5 +42,13 @@ img{
     border-radius: 100%;
 }
 h2{
-    color: aliceblue;
+    font-family: "Karla";
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, footer{
+    max-width: 100%;
 }
