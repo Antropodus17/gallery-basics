@@ -1,14 +1,11 @@
-html{
-    display: flex;
-    min-height: 100%;
-    align-items: stretch;
-}
+
 body{
+    min-height: 100vh;
     display: flex;
     background-color: #6F3A1B;
     flex-direction: column;
     align-items: stretch;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0;
     color: #fff;
 }
@@ -16,7 +13,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     font-family: "Vina sans";
 }
 main{
@@ -25,6 +21,7 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: space-around;
+    min-height: 400px;
 }
 article{
     width: 300px;
@@ -48,7 +45,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-header, footer{
-    max-width: 100%;
+    font-family: Karla;
 }
